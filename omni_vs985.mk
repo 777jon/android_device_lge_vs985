@@ -24,7 +24,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 $(call inherit-product, vendor/omni/config/common.mk)
 
 PRODUCT_COPY_FILES += device/lge/vs985/fstab.g3:recovery/root/fstab.g3
-PRODUCT_COPY_FILES += device/lge/vs985/recovery.fstab:recovery/root/etc/twrp.fstab
 
 PRODUCT_DEVICE := vs985
 PRODUCT_NAME := omni_vs985
